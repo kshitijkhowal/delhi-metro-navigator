@@ -1,4 +1,6 @@
 import React from 'react'
+import { TrainFront } from 'lucide-react';
+import LOGO from "../assets/KK_initials.png"
 
 const Navbar = () => {
     return (
@@ -23,39 +25,39 @@ const Navbar = () => {
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                         <li><a href="/find-route">Find Route</a></li>
-                        <li>
-                            <a>Network</a>
+                        <li><a href="/network-map">Network</a></li>
+                        {/* <li>
+                            <a>Lines</a>
                             <ul className="p-2">
-                                <li><a href="/network/network-map" >Network Map</a></li>
-                                <li><a href="/network/airport-express-line" >Airport Express Line</a></li>
-                                <li><a href="/network/rapid-metro" >Rapid Metro</a></li>
-                                <li><a href="/network/nmrc" >NMRC</a></li>
+                                <li><a>Network Map</a></li>
+                                
                             </ul>
-                        </li>
-                        <li><a>Contact me</a></li>
+                        </li> */}
+                        <li><a href="/about">About</a></li>
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-xl" href="/">Home</a>
+                <a className="btn btn-ghost text-xl" href="/"><TrainFront /> Home</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <li><a href='/find-route'>Find Route</a></li>
-                    <li>
+                    <li><a href="/network-map">Network Map</a></li>
+                    {/* <li>
                         <details>
-                            <summary>Network</summary>
+                            <summary>Lines</summary>
                             <ul className="p-2">
                                 <li><a href="/network/network-map" >Network Map</a></li>
-                                <li><a href="/network/airport-express-line" >Airport Express Line</a></li>
-                                <li><a href="/network/rapid-metro" >Rapid Metro</a></li>
-                                <li><a href="/network/nmrc" >NMRC</a></li>
+                                
                             </ul>
                         </details>
-                    </li>
-                    <li><a>Contact me</a></li>
+                    </li> */}
+                    <li><a href='/about'>About</a></li>
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Reset</a>
+                <a href="/about" className="btn">
+                    <img src={LOGO} className='w-10' />
+                </a>
             </div>
         </div>
     )

@@ -17,8 +17,7 @@ const HomePage = () => {
           <h2 className="text-2xl font-semibold text-secondary mb-4">✨ Key Features:</h2>
           <ul className="text-gray-600 text-md space-y-2 text-left md:text-center">
             <li>✅ Find the <strong>fastest routes</strong> between any two metro stations.</li>
-            <li>✅ Explore our <strong>interactive maps</strong> for better route visualization.</li>
-            <li>✅ Get real-time updates on <strong>station details</strong> and services.</li>
+            <li>✅ Explore our <strong>maps</strong> for better route visualization.</li>
             <li>✅ Calculate <strong>fare estimates</strong> for your journey with ease.</li>
           </ul>
         </div>
