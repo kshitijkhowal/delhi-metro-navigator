@@ -29,8 +29,8 @@ const RouteDisplay = ({ path }) => {
     }
 
     return (
-        <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200 mt-6">
-            <h2 className="text-2xl font-bold mb-4 text-center">🚦 Metro Route Details</h2>
+        <div className='p-4'>
+            <h2 className="text-2xl font-bold mb-4 text-center text-black">Metro Route Details</h2>
             <div className="flex flex-col space-y-4">
 
                 {path.map((node, index) => {
@@ -76,10 +76,7 @@ const RouteDisplay = ({ path }) => {
                                 </div>
                             )}
 
-                            {/* Direction Arrow */}
-                            {index < path.length - 1 && (
-                                <ArrowRightCircle size={18} className="text-gray-500 ml-2" />
-                            )}
+                            
                         </div>
                     );
                 })}

@@ -54,9 +54,9 @@ const lines = {
 
 // Process each branch
 const branches = {
-    blueBranch: blueBranchData,
-    greenBranch: greenBranchData,
-    pinkBranch: pinkBranchData
+    blue: blueBranchData,
+    green: greenBranchData,
+    pink: pinkBranchData
 };
 
 Object.keys(lines).forEach(line => {
