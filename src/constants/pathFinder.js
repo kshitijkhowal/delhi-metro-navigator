@@ -36,7 +36,7 @@ export function findShortestPathWithColors(source, destination) {
         }
     }
 
-    console.warn('No path found between source and destination!');
+    // console.warn('No path found between source and destination!');
     return null;
 }
 

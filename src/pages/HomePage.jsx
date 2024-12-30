@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomePage = () => {
   return (
-    <div className="h-full w-full bg-gray-100 flex flex-col justify-center items-center p-4 rounded-xl m-3">
+    <div className="h-full w-full bg-gray-100 flex flex-col justify-center items-center m-4 rounded-xl">
       <div className="text-center max-w-3xl">
         {/* Header Section */}
         <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
