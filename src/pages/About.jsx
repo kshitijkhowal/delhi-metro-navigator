@@ -29,7 +29,7 @@ const About = () => {
                 {/* Suggestions & Bug Reporting */}
                 <div className="text-gray-700 text-sm mb-6 flex flex-col items-center">
                     <a
-                        href="https://github.com/kshitijkhowal/your-repo"
+                        href="https://github.com/kshitijkhowal/delhi-metro-navigator"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center px-4 py-2 bg-yellow-400 text-black font-semibold rounded-lg hover:bg-yellow-500 transition-colors"
