@@ -1,5 +1,5 @@
 import React from 'react'
-import { TrainFront } from 'lucide-react';
+import { TrainFront,Spline,Map,User } from 'lucide-react';
 import LOGO from "../assets/KK_initials.png"
 
 const Navbar = () => {
@@ -24,7 +24,7 @@ const Navbar = () => {
                     <ul
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                        <li><a href="/find-route">Find Route</a></li>
+                        <li><a href="/find-route">Find Route </a></li>
                         <li><a href="/network-map">Network</a></li>
                         {/* <li>
                             <a>Lines</a>
@@ -40,8 +40,8 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><a href='/find-route'>Find Route</a></li>
-                    <li><a href="/network-map">Network Map</a></li>
+                    <li><a href='/find-route'>Find Route<Spline/></a></li>
+                    <li><a href="/network-map">Network Map<Map/></a></li>
                     {/* <li>
                         <details>
                             <summary>Lines</summary>
@@ -51,7 +51,7 @@ const Navbar = () => {
                             </ul>
                         </details>
                     </li> */}
-                    <li><a href='/about'>About</a></li>
+                    <li><a href='/about'>About<User/></a></li>
                 </ul>
             </div>
             <div className="navbar-end">

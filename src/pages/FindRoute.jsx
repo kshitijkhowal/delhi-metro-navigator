@@ -123,12 +123,12 @@ const FindRoute = () => {
                                 <h1 className={`text-2xl font-bold text-center mb-6 text-black`}>
                                     Source Suggestions
                                 </h1>
-                                <ul className=" z-10 mt-1 bg-white border border-gray-200 w-full rounded-md shadow-lg max-h-40 overflow-auto">
+                                <ul className=" z-10 mt-1 bg-white border border-gray-700 w-[50%] rounded-md m-2 shadow-lg max-h-40 overflow-auto">
                                     {suggestions.source.map((station, index) => (
                                         <li
                                             key={index}
                                             onClick={() => handleSuggestionClick(station, 'source')}
-                                            className="p-2 hover:bg-gray-100 cursor-pointer"
+                                            className="p-2 text-slate-800 hover:bg-gray-100 cursor-pointer"
                                         >
                                             {station.value}
                                         </li>

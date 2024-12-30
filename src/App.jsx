@@ -4,14 +4,14 @@ import HomePage from "./pages/HomePage.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
 import FindRoute from "./pages/FindRoute.jsx";
-import NetworkMap from "./network-maps/NetworkMap.jsx";
+import NetworkMap from "./pages/NetworkMap.jsx";
 import About from "./pages/About.jsx";
 
 
 const App = () => {
 
   return (
-    <div data-theme="dim">
+    <div data-theme="dark">
       <div className="min-h-screen flex flex-col ">
         <Navbar />
         <main className="flex flex-grow">
