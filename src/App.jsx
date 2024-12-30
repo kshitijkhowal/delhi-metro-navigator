@@ -11,7 +11,7 @@ import About from "./pages/About.jsx";
 const App = () => {
 
   return (
-    <div data-theme="dim">
+    <div data-theme="dark">
       <div className="min-h-screen flex flex-col ">
         <Navbar />
         <main className="flex flex-grow">
