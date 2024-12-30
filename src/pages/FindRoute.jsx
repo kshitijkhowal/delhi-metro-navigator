@@ -30,7 +30,10 @@ const FindRoute = () => {
             <h1 className='text-2xl font-bold text-center mb-6 text-black'>Select Your Source and Destination</h1>
             
             {/* form for input */}
-            
+            <div className="from-control mb-4">
+                
+            </div>
+
 
 
         </div>
