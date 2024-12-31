@@ -49,6 +49,12 @@ A user-friendly **Delhi Metro Navigator App** designed to provide seamless navig
 
 ![Usage Example](./assets/screenshot3.png)
 
+## 🎥 Demonstration
+
+Check out the app in action:
+
+![Delhi Metro Navigator Demo](./assets/demo.gif)
+
 ## 🎯 Learning Outcomes
 - Deep understanding of React and state management.
 - Integration of interactive UI components with Daisy UI.
