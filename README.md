@@ -1,8 +1,8 @@
 # 🚇 Delhi Metro Navigator App
 
 A user-friendly **Delhi Metro Navigator App** designed to provide seamless navigation, route planning, and fare estimation for the Delhi Metro network.
-<img src="./src/assets/demo.gif" alt="App Demo" width="600" />
 
+<img src="./src/assets/demo.gif" alt="App Demo" width="600" />
 <img src="./src/assets/screenshot1.png" alt="App Screenshot" width="600" />
 
 ## 🚀 Features
