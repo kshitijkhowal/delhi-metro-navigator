@@ -73,7 +73,7 @@ const FindRoute = () => {
         setSource(destination);
         setDestination(temp);
     }
-    
+
 
     return (
         <div className='h-full w-full p-4'>
@@ -87,8 +87,12 @@ const FindRoute = () => {
 
                     {/* source input */}
                     <div className="from-control mb-4 w-[30%]">
-                        <label className="label text text-slate-950">Source Station</label>
+                        <label htmlFor="sourceStation" className="label text text-slate-950">
+                            Source Station
+                        </label>
                         <input
+                            id="sourceStation"
+                            name="sourceStation"
                             type="text"
                             value={source}
                             onChange={(e) => handleInputChange(e.target.value, 'source')}
@@ -103,8 +107,11 @@ const FindRoute = () => {
 
                     {/* destination input */}
                     <div className="from-control mb-4 w-[30%]">
-                        <label className="label text text-slate-950">Destination Station</label>
-                        <input
+                        <label htmlFor="destinationStation" className="label text text-slate-950">
+                            Destination Station
+                        </label>                        <input
+                            id="destinationStation"
+                            name="destinationStation"
                             type="text"
                             value={destination}
                             onChange={(e) => handleInputChange(e.target.value, 'destination')}
@@ -166,7 +173,7 @@ const FindRoute = () => {
             </div>
             {/* route display component */}
             <div className="h-full w-full bg-gray-100 flex flex-col  p-4 rounded-xl">
-                <RouteDisplay path={path}/>
+                <RouteDisplay path={path} />
             </div>
         </div>
     )
