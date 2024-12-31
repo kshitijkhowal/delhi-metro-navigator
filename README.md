@@ -2,10 +2,14 @@
 
 A user-friendly **Delhi Metro Navigator App** designed to provide seamless navigation, route planning, and fare estimation for the Delhi Metro network.
 
+![App Screenshot](./assets/screenshot1.png)
+
 ## 🚀 Features
 
 - **Route Planner:** Find the shortest and most efficient metro routes.
 - **Interactive UI:** Easy-to-use interface with responsive design.
+
+![Route Planner Screenshot](./assets/screenshot2.png)
 
 ## 🛠️ Tech Stack
 
@@ -17,7 +21,7 @@ A user-friendly **Delhi Metro Navigator App** designed to provide seamless navig
 
 1. Clone the repository:
    ```bash
-   https://github.com/kshitijkhowal/delhi-metro-navigator
+   git clone https://github.com/kshitijkhowal/delhi-metro-navigator
    ```
 2. Navigate to the project directory:
    ```bash
@@ -42,6 +46,8 @@ A user-friendly **Delhi Metro Navigator App** designed to provide seamless navig
 2. Get the optimal route along with fare and travel duration.
 3. Explore additional station details.
 4. Plan your metro travel efficiently.
+
+![Usage Example](./assets/screenshot3.png)
 
 ## 🎯 Learning Outcomes
 - Deep understanding of React and state management.
