@@ -19,10 +19,10 @@ const App = () => {
         <Navbar />
         <main className="flex flex-grow">
           <Routes>
-            <Route path="https://amazing-fudge-c1aa9e.netlify.app/" element={<HomePage />} />
-            <Route path="https://amazing-fudge-c1aa9e.netlify.app/find-route" element={<FindRoute />} />
-            <Route path="https://amazing-fudge-c1aa9e.netlify.app/network-map" element={<NetworkMap />} />
-            <Route path="https://amazing-fudge-c1aa9e.netlify.app/about" element={<About />} />
+            <Route path="https://delhi-metro-navigator.vercel.app/" element={<HomePage />} />
+            <Route path="https://delhi-metro-navigator.vercel.app/find-route" element={<FindRoute />} />
+            <Route path="https://delhi-metro-navigator.vercel.app/network-map" element={<NetworkMap />} />
+            <Route path="https://delhi-metro-navigator.vercel.app/about" element={<About />} />
             
           </Routes>
         </main>
