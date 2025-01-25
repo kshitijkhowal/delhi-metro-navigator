@@ -14,9 +14,6 @@ import blueBranchData from '../data/metro-lines/branches/blue-branch.json';
 import greenBranchData from '../data/metro-lines/branches/green-branch.json';
 import pinkBranchData from '../data/metro-lines/branches/pink-branch.json';
 
-// Import Station JSON files
-import stationsGeneratedData from '../data/metro-stations/stations-generated.json';
-import stationsData from '../data/metro-stations/stations.json';
 
 // Graph initialization
 const metroGraph = {};
